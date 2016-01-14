@@ -1,0 +1,38 @@
+/* Empty. Add your own CSS if you like */
+
+#CalculatorContainer {
+  max-width: 400px;
+  margin: auto;
+}
+
+#CalculatorContainer button {
+  margin-bottom: 0;
+}
+
+#CalculatorContainer button:hover {
+  background-color: #CFD8DC;
+}
+
+#CalculatorContainer button.activated {
+  background-color: #90A4AE;
+}
+
+#Expression {
+  font-size: 24px;
+}
+
+.col-25, .col-50, .col-75 {
+  padding-right: 10px;
+}
+
+.item-input {
+  margin-top: 10px;
+}
+
+.highlight {
+  border: 1px solid black;
+}
+
+.underline {
+  text-decoration: underline;
+}
